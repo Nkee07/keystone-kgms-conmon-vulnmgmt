@@ -1,0 +1,17 @@
+Activity,Frequency,Method,Owner,Deliverable,Frequency_Rationale
+Authenticated infrastructure vulnerability scan,"Weekly, Monday 02:00","Tenable Nessus, credentialed",Samuel P. Hargrave,"Scan report, findings to ServiceNow",Weekly is the shortest cadence that keeps mean time to detection under the 30 day service level with margin
+Authenticated web application scan,"Monthly, second Tuesday",Nessus web application scanning,Priya N. Raghunathan,Scan report,Monthly because the application release cadence is monthly; scanning more often than you change is measurement without information
+Container image scan,Every build,"Pipeline integrated, blocking on Critical",Priya N. Raghunathan,Build gate result,"Per build, because a vulnerable image that reaches a registry will be deployed"
+Configuration baseline compliance,Continuous,Platform compliance rules,Samuel P. Hargrave,Drift exception ticket,"Continuous, because the assessment showed drift was only ever found at assessment"
+Privileged account activity review,Weekly,Correlated query across three planes,Derrick A. Whitmore,Weekly review record,"Weekly, because the pattern being looked for spans days and a daily view cannot see it"
+Alert queue triage,Daily,Detection rules on 7 log groups,Derrick A. Whitmore,Ticket record,"Daily, matched to security operations centre staffing"
+Access review,Quarterly,Export plus line by line supervisor attestation,Nkeiru Sarah Adesida,Signed attestation in RSA Archer,"Quarterly, because monthly attestation produces rubber stamping and annual leaves stale access for too long"
+POA&M status review,Monthly,Evidence validation against every open item,Nkeiru Sarah Adesida,POA&M status update,"Monthly, aligned to the AO reporting requirement"
+"Control test, rolling subset","Monthly, 1/12 of controls",SP 800-53A procedures,Nkeiru Sarah Adesida,Test results in RSA Archer,"Monthly rolling, so every control is tested annually without an annual crunch"
+Significant change review,Per change,Security impact analysis before deployment,Nkeiru Sarah Adesida,Impact analysis record,"Per change, because after the fact review cannot prevent anything"
+Payment reconciliation verification,Monthly,Confirm the daily control ran every business day,Nkeiru Sarah Adesida,Verification record,"Monthly. This control carries the integrity categorisation, so it is verified separately rather than assumed"
+Interconnection agreement review,Annual,Confirm agreements current,Marcus T. Delacroix,Review memorandum,"Annual, matched to the agreement review cycle"
+Contingency plan functional test,Annual,Restore the database tier into an isolated subnet,Marcus T. Delacroix,After action report with measured recovery time,"Annual, and functional rather than tabletop because a tabletop cannot measure a recovery time"
+Incident response exercise,Annual,Tabletop plus one functional element,Derrick A. Whitmore,Exercise report,Annual
+Security literacy and awareness training,"Annual per user, tracked monthly",Agency training platform,Yvonne C. Castellanos,Completion report,"Annual per user with monthly tracking, because tracking annually means finding lapses annually"
+Full control reassessment,Annual,One third of controls plus every previously failed control,Rebecca J. Tran,Assessment report,"Annual, with previously failed controls always in scope because a closed finding is the most likely one to recur"
