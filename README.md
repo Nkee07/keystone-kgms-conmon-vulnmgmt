@@ -119,6 +119,7 @@ original finding set are in
 |---|---|
 | [keystone-kgms-fedramp-rmf](https://github.com/Nkee07/keystone-kgms-fedramp-rmf) | The federal authorisation: RMF Steps 0 to 6, 16 assessment findings, the 10 item POA&M and the ATO memorandum |
 | [keystone-kgms-iso27001](https://github.com/Nkee07/keystone-kgms-iso27001) | The same system under ISO/IEC 27001:2022 and ISO/IEC 27005, with a framework crosswalk |
+| [keystone-kgms-security-plus](https://github.com/Nkee07/keystone-kgms-security-plus) | All five CompTIA Security+ SY0-701 domains applied to the same simulated system |
 
 ---
 
@@ -133,7 +134,7 @@ Working areas: NIST Risk Management Framework, security control assessment, risk
 assessment, POA&M management, continuous monitoring, and vulnerability management with
 Tenable Nessus, ServiceNow and RSA Archer.
 
-[GitHub](https://github.com/Nkee07) | [LinkedIn](https://www.linkedin.com/in/nkeiru-adesida-grc)
+[GitHub](https://github.com/Nkee07) | [LinkedIn](https://www.linkedin.com/in/nkeiru-adesida-grc) | [nkiru_sarah@yahoo.com](mailto:nkiru_sarah@yahoo.com)
 
 ---
 
